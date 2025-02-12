@@ -1,0 +1,73 @@
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+    /* border: 2px solid green; */
+}
+.logo{
+    display:flex ;
+}
+.login{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 15px;
+}
+.home{
+    color: red;
+}
+.about{
+    color: green;
+}
+.facilities{
+    color: green;
+}
+.admission{
+    color: blue;
+}
+.nav-btn{
+    background-color: rgb(254, 163, 1);
+    margin-top: 5%;
+    border-radius: 10px;
+    padding: 20px;
+    width: 150px;
+    height: 50px;
+    outline: none;
+    border: none;
+}
+.profile{
+    display: flex;
+    padding: 100px;
+    height: 575px;
+}
+.prof-text{
+    /* border: 2px solid red; */
+    margin: 80px;
+    padding: 50px;
+    font-size: 20px;
+    margin-top: 1opx;
+}
+.prof-pic{
+   
+}
+.course{
+    display: flex;
+    justify-content: space-around;
+}
+.course-title{
+    text-align: center;
+}
+.course-3{
+    height: 350px;
+    width: 300px;
+    border: 2px solid green;
+    background-color: rgb(232, 250, 244);
+    border-radius: 10px;
+    text-align: center;
+}
+.course-bg{
+    background-image: url("asset_bg.png");
+}
